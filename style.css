@@ -1,0 +1,119 @@
+/* COLOR SYSTEM 
+
+   rgb(2, 85, 64) - Light
+   rgb(9, 56, 46) - Medium
+   rgb(1, 27, 21) - Dark
+
+*/
+
+/* GLOBAL RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* DEFINES BACKGROUND COLOR AND GIVES SPACE ABOVE THE CARD */
+body {
+    background-color: rgb(210, 245, 245);
+    margin-top: 100px;
+}
+
+/* DEFINES THE GRID PROPERTIES, SETS COLORED LINE BELOW AND CENTERS IT */
+.container {
+    display: grid;
+    grid-template-columns: 180px 340px;
+    grid-template-rows: 250px;
+    align-items: center;
+    align-content: center;
+    column-gap: 30px;
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+    border-bottom: 5px rgb(9, 56, 46) solid;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: rgb(250, 248, 247);
+}
+
+/* ROUNDS IMAGE, SETS THE CONTAINER HEIGHT AND CENTERS IT */
+header, img {
+    height: 210px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+/* SETS THE SECTION HEIGHT */
+section {
+    height: 210px;
+}
+
+/* DEFINES THE H3 ELEMENT PROPERTIES */
+.card-header-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 1.1px;
+    color: rgb(9, 56, 46);
+}
+
+/* DEFINES THE THE DIVIDER LINE */
+hr {
+    border: -0.8px rgb(9, 56, 46) solid;
+}
+
+/* DEFINES THE PARAGRAPH SECTION */
+.card-header-role {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(1, 27, 21);
+    margin: 10px 0;
+}
+
+/* DEFINES THE UL ELEMENT PROPERTIES */
+.card-contact-details {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    list-style: none;
+    margin-top: 10px;
+    color: rgb(1, 27, 21);
+    
+}
+
+/* DEFINES THE LI ELEMENT PROPERTIES */
+li {
+    margin-top: 20px;
+}
+
+/* DEFINES THE FIRST LI PROPERTY */
+li:first-child {
+    margin-top: 10px;
+}
+
+/* DEFINES THE A HREF ELEMENT PROPERTIES */
+a:link {
+    text-decoration: none;
+    color: rgb(9, 56, 46);
+}
+
+a:visited {
+    text-decoration: underline;
+    color: rgb(1, 27, 21);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(2, 85, 64);
+}
+
+a:active {
+    text-decoration: underline;
+    color: rgb(2, 85, 64);
+}
+
+/* FRONT-END DEVELOPER - BELUONWU-OGBO NZUBECHUKWU .P */
